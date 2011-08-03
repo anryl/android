@@ -11,9 +11,6 @@
   <remote  name="kalltkaffe"
            fetch="git://github.com/kalltkaffe" />
 
-  <remote  name="themes"
-           fetch="git://github.com/tmobile" />
-
   <default revision="gingerbread"
            remote="korg" />
 
