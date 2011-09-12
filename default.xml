@@ -11,8 +11,11 @@
   <remote  name="kalltkaffe"
            fetch="git://github.com/kalltkaffe" />
 
+  <remote  name="omapzoom"
+           fetch="git://git.omapzoom.org/" /> 
+
   <default revision="gingerbread"
-           remote="korg" />
+           remote="omapzoom" />
 
   <project path="build" name="CyanogenMod/android_build" remote="github">
     <copyfile src="core/root.mk" dest="Makefile" />
